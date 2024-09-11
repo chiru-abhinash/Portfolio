@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chiru Abhinash | About Me</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <style>
+    .fade-in {
+      opacity: 0;
+      animation: fadeIn 2s forwards;
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+
+    .education-table {
+      margin-top: 30px;
+    }
+
+    .table-hover tbody tr:hover {
+      background-color: #f1f1f1;
+    }
+
+    .progress {
+      height: 25px;
+      background-color: #f1f1f1;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .progress-bar {
+      background-color: #007bff;
+      line-height: 25px;
+      color: #fff;
+      font-weight: bold;
+    }
+
+    .progress-bar:nth-child(odd) {
+      background-color: #28a745;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Chiru Abhinash</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="achievements.html">Achievements</a></li>
+        <li class="nav-item"><a class="nav-link" href="certifications.html">Certifications</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- About Section -->
+  <section class="container py-5 fade-in">
+    <!-- Academic Details -->
+    <div class="education-table">
+      <h3 class="text-center">Academic Details</h3>
+      <table class="table table-hover table-bordered">
+        <thead class="thead-dark">
+          <tr>
+            <th>Degree</th>
+            <th>Stream</th>
+            <th>Institute</th>
+            <th>Year</th>
+            <th>% or CGPA</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>B.Tech</td>
+            <td>Artificial Intelligence & Machine Learning</td>
+            <td>Vel Tech University, Chennai</td>
+            <td>2025</td>
+            <td>9.3</td>
+          </tr>
+          <tr>
+            <td>12th</td>
+            <td>PCM</td>
+            <td>Chandra Reddy College, Nellore</td>
+            <td>2021</td>
+            <td>97.5%</td>
+          </tr>
+          <tr>
+            <td>10th</td>
+            <td>NA</td>
+            <td>V.B.R High School, Nellore</td>
+            <td>2019</td>
+            <td>10 CGPA</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Skills Section with Ratings -->
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <h3>Technical Skills</h3>
+        <p>Python Programming</p>
+        <div class="progress">
+          <div class="progress-bar" style="width: 90%;">90%</div>
+        </div>
+        <p>Artificial Intelligence</p>
+        <div class="progress">
+          <div class="progress-bar" style="width: 90%;">90%</div>
+        </div>
+
+        <p class="mt-3">Machine Learning</p>
+        <div class="progress">
+          <div class="progress-bar" style="width: 90%;">90%</div>
+        </div>
+
+        <p class="mt-3">Generative AI</p>
+        <div class="progress">
+          <div class="progress-bar" style="width: 80%;">80%</div>
+        </div>
+
+        <p class="mt-3">Computer Vision</p>
+        <div class="progress">
+          <div class="progress-bar" style="width: 80%;">80%</div>
+        </div>
+
+        <p class="mt-3">Natural Language Processing</p>
+        <div class="progress">
+          <div class="progress-bar" style="width: 85%;">85%</div>
+        </div>
+
+        <p class="mt-3">Full Stack Development</p>
+        <div class="progress">
+          <div class="progress-bar" style="width: 80%;">80%</div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <img src="images/ai.jpg" alt="AI Illustration" class="img-fluid animate__animated animate__fadeInRight">
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4">
+    <p>&copy; 2024 Chiru Abhinash. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

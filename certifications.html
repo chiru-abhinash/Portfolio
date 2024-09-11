@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chiru Abhinash | Certifications</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f0f2f5;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .navbar {
+      background-color: #343a40;
+    }
+    .navbar-brand, .navbar-nav .nav-link {
+      color: #ffffff !important;
+    }
+    .navbar-nav .nav-link:hover {
+      color: #f8f9fa !important;
+    }
+
+    .container {
+      background-color: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #343a40;
+      font-weight: bold;
+      margin-bottom: 40px;
+    }
+
+    .certification-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-gap: 20px;
+    }
+
+    @media (min-width: 768px) {
+      .certification-list {
+        grid-template-columns: repeat(3, 1fr); /* Three columns on wider screens */
+      }
+    }
+
+    .certification {
+      background: linear-gradient(135deg, #f7fafc, #e0e7ff);
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .certification:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .certification img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      transition: transform 0.3s ease;
+    }
+
+    .certification img:hover {
+      transform: scale(1.05);
+    }
+
+    .certification h3 {
+      color: #007bff;
+      font-size: 1.25rem;
+    }
+
+    .certification p {
+      color: #333;
+    }
+
+    footer {
+      margin-top: 40px;
+      background-color: #343a40;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Chiru Abhinash</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="achievements.html">Achievements</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="container py-5">
+    <h2>Certifications</h2>
+
+    <div class="certification-list">
+      <div class="certification">
+        <img src="images/amazon.png" alt="AI-ML Certification">
+        <h3>AI-ML Virtual Internship by Amazon</h3>
+        <p>Gained hands-on experience with AI/ML during an internship with Amazon.</p>
+      </div>
+
+      <div class="certification">
+        <img src="images/google.png" alt="Android Developer Certification">
+        <h3>Android Developer Internship by Google</h3>
+        <p>Developed and deployed mobile applications during my internship at Google.</p>
+      </div>
+
+      <div class="certification">
+        <img src="images/cisco.png" alt="Networks Course Certification">
+        <h3>Introduction to Networks</h3>
+        <p>Completed the Introduction to Networks course and learned networking fundamentals.</p>
+      </div>
+
+      <div class="certification">
+        <img src="images/amazondata.png" alt="Data Analytics Virtual Internship">
+        <h3>Data Analytics Virtual Internship</h3>
+        <p>Gained hands-on experience with Data Science during an internship with Amazon.</p>
+      </div>
+
+      <div class="certification">
+        <img src="images/python.png" alt="Vel Tech Coding Contest">
+        <h3>Programming Essentials In Python</h3>
+        <p>Completed the Programming Essentials In Python course and learned programming fundamentals.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Chiru Abhinash. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

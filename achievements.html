@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chiru Abhinash | Achievements</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f0f2f5;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .navbar {
+      background-color: #343a40;
+    }
+    .navbar-brand, .navbar-nav .nav-link {
+      color: #ffffff !important;
+    }
+    .navbar-nav .nav-link:hover {
+      color: #f8f9fa !important;
+    }
+
+    .container {
+      background-color: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #343a40;
+      font-weight: bold;
+      margin-bottom: 40px;
+    }
+
+    .achievement {
+      margin-bottom: 30px;
+      padding: 20px;
+      border-radius: 8px;
+      background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(239,245,255,1) 100%);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+    .achievement:hover {
+      transform: translateY(-10px);
+      background: linear-gradient(135deg, rgba(239,245,255,1) 0%, rgba(219,235,255,1) 100%);
+    }
+
+    .achievement h3 {
+      color: #007bff;
+    }
+
+    .achievement p {
+      color: #333;
+    }
+
+    .achievement img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-top: 15px;
+      transition: transform 0.3s ease;
+    }
+
+    .achievement img:hover {
+      transform: scale(1.05);
+    }
+
+    .btn-custom {
+      background-color: #007bff;
+      color: #ffffff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-transform: uppercase;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 15px;
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .btn-custom:hover {
+      background-color: #0056b3;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    .achievement {
+      animation: fadeIn 0.5s ease-in-out;
+    }
+
+    /* Image grid for multiple images in coding contests */
+    .achievement .image-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-gap: 15px;
+      margin-top: 15px;
+    }
+    
+    footer {
+      margin-top: 40px;
+      background-color: #343a40;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Chiru Abhinash</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="certifications.html">Certifications</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="container py-5">
+    <h2>Achievements</h2>
+    
+    <div class="achievement">
+      <h3>Published Research Paper</h3>
+      <p>Published a research paper on transport scheduling in IEEE. You can read the paper by clicking the button below.</p>
+      <a href="https://ieeexplore.ieee.org/document/10550245" target="_blank" class="btn btn-custom">Read the Paper</a>
+    </div>
+
+    <div class="achievement">
+      <h3>Smart India Hackathon 2023</h3>
+      <p>Finalist at Smart India Hackathon 2023.</p>
+      <img src="images/sih.jpg" alt="Smart India Hackathon">
+    </div>
+
+    <div class="achievement">
+      <h3>Won 4+ Coding Contests</h3>
+      <p>Won 4+ coding contests at Vel Tech University.</p>
+      <div class="image-grid">
+        <img src="images/c3.jpg" alt="Coding Contest 1">
+        <img src="images/c2.jpg" alt="Coding Contest 2">
+        <img src="images/c1.jpg" alt="Coding Contest 3">
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Chiru Abhinash. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
